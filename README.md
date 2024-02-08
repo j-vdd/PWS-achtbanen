@@ -16,7 +16,7 @@ num_5 / 5: verhoog G-krachten
 num_4 / 7: verhoog draaisnelheid aan het einde van het segment naar links
 num_6 / 8: verhoog draaisnelheid naar rechts
 
-+ / -: segment vooruit of achteruit (huidige segment te zien aan de rode kleur) (werkt ook op numpad)
+\+ / -: segment vooruit of achteruit (huidige segment te zien aan de rode kleur) (werkt ook op numpad)
 
 Overig:
 f: fullscreen
