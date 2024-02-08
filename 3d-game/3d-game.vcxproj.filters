@@ -57,6 +57,5 @@
   <ItemGroup>
     <Text Include="assets\basic-assets.txt" />
     <Text Include="assets\coaster.txt" />
-    <Text Include="assets\controls.txt" />
   </ItemGroup>
 </Project>
