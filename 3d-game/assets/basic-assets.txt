@@ -1,0 +1,38 @@
+Entity obstacle
+	Asset Material
+		path shaderPath shaders/phong
+		float3 color {1.0, 1.0, 0.0}
+		float specular 32
+
+Entity cart
+	Asset Material
+		path shaderPath shaders/phong
+		float3 color {1.0, 0.0, 0.0}
+		float specular 32
+	Asset Mesh
+		path objPath front-cart
+
+Entity track
+	Asset Material
+		path shaderPath shaders/coaster
+		float3 color {0.0, 0.9, 0.0}
+		float specular 32
+		float trackIndex 0.0
+
+Entity sphere
+	Asset Material
+		path shaderPath shaders/basic
+
+Entity graph
+	Asset Material
+		path shaderPath shaders/graph
+		float3 color {1.0, 0.0, 0.0}
+
+Entity ground
+	Asset Material
+		path shaderPath shaders/grid
+		float4 color {0.1, 0.1, 0.1, 0.0}
+		float specular 0
+		float smallGridEnabled 1.0
+	Asset Mesh
+		path objPath XZ-plane
