@@ -1,4 +1,5 @@
 Het grootste deel van de code is niet specifiek geschreven voor dit PWS, de code die dat wel is, is te vinden in het mapje '3d-game/src/rollercoaster'.
+Er is een release beschikbaar, deze is voor 64-bit windows
 
 Controls:
 
