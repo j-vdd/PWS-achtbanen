@@ -26,9 +26,6 @@
 
 #include "physics/PhysicsManager.h"
 
-#include "Gun.h"
-#include "GunSystem.h"
-
 #include "ecs/Registry.h"
 
 #include "AssetManager.h"
@@ -36,8 +33,6 @@
 #include "rollercoaster/Track.h"
 #include "rollercoaster/CartComponent.h"
 #include "rollercoaster/RollercoasterSystem.h"
-
-#include "Sphere.h"
 
 int main(int argc, char* argv[])
 {
@@ -236,8 +231,7 @@ int main(int argc, char* argv[])
 		renderer.clear();
 
 		PlayerSystem::update(registry, 1.0f);
-		GunSystem::update(registry, 1.0f);
-
+		
 		Physics::updateRigidbodies(registry, 1.0f);
 		Physics::updateCollisions(registry, 1.0f);
 
